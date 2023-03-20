@@ -76,7 +76,7 @@ function Register() {
     async function signup() {
       if (solVerified) {
         // mongodb signup
-        const response = await fetch("http://localhost:7000/api/register", {
+        const response = await fetch("https://ithack.iamkunal9.repl.co/api/register", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

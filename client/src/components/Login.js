@@ -40,7 +40,7 @@ function Login() {
     async function loginUser(e) {
         e.preventDefault();
         setSoftLoading(true);
-        const response = await fetch("http://localhost:7000/api/login", {
+        const response = await fetch("https://ithack.iamkunal9.repl.co/api/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
