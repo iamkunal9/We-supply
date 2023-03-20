@@ -73,9 +73,9 @@ function Login() {
         
             <h1>LOGIN</h1>
             {designation ? 
-            <><a href='/login'><img src="https://img.icons8.com/ios/50/000000/circled-left-2.png" style={{position: "absolute",
-            left: "203px",
-            bottom: "29rem",
+            <><a href='/login'><img src="https://img.icons8.com/ios/50/000000/circled-left-2.png" style={{position: "relative",
+            right: "164px",
+            bottom: "3rem",
             width: "1.7rem"}}
             
         ></img></a><p ref={desRef} className='text-center login-desig'>{designation}</p></>
