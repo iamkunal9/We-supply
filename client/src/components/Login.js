@@ -70,9 +70,16 @@ function Login() {
         <SolidLoader />
         : ""}
         <div className='login-container'>
+        
             <h1>LOGIN</h1>
             {designation ? 
-                <p ref={desRef} className='text-center login-desig'>{designation}</p>
+            <><a href='/login'><img src="https://img.icons8.com/ios/50/000000/circled-left-2.png" style={{position: "absolute",
+            left: "203px",
+            bottom: "29rem",
+            width: "1.7rem"}}
+            
+        ></img></a><p ref={desRef} className='text-center login-desig'>{designation}</p></>
+                
                 :
                 ""
             }
@@ -99,8 +106,9 @@ function Login() {
                         <label htmlFor="">Password</label>
                     </div>
                     <input type="submit" value="Submit" />
-
+                    <p>Don't Have an Account? <Link to="/register">Sign Up</Link></p>
                 </form>
+                
             )
             :
             <div className='desig-choose' ref={btnGrp}>

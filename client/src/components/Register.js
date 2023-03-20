@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useContext} from 'react';
 import {GlobalContext} from '../context/provider';
+import {Link} from 'react-router-dom';
 import SoftLoader from './SoftLoader';
 import '../styles/LoginRegister.css';
 import Web3 from "web3";
@@ -234,7 +235,7 @@ function Register() {
               : ""
             }
             <input type="submit" value="Submit" />
-
+            <p>Already Have an Account? <Link to="/login">Log In</Link></p>
         </form>
       </div>
     </div>
