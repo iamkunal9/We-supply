@@ -8,6 +8,7 @@ Our project utilizes smart contracts to automate the supply chain process, enabl
 
 ## In this Video
 [![Watch on Youtube](https://i.postimg.cc/HWbZhjC0/image-removebg-preview.png)](https://www.youtube.com/watch?v=PjGlyx7abwk)
+
 In this video, we will provide you with a step-by-step guide on how to use We Supply. We will showcase the different features and functionalities of our solution, including how to track products, manage inventory, and automate the supply chain process.
 
 ## Follow Us
