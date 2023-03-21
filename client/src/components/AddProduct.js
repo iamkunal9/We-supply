@@ -89,7 +89,7 @@ function AddProduct() {
     return;
   }
   if (!web3) {
-    return <div>Loading Web3, accounts, and contract...</div>;
+    return <div>Loading Web3, accounts, and contract... Please add metamask extension first</div>;
   }
   return (
     <>
