@@ -1,5 +1,5 @@
 # Welcome to We Supply: A Web3 Based Supply Chain Project
-We are excited to present "We Supply", a web3 based supply chain project that was created for the Rajasthan IT day hackathon. Our innovative solution leverages the power of web3 technology to provide a transparent and efficient supply chain system.
+We are excited to present "We Supply", a web3 based supply chain project. Our innovative solution leverages the power of web3 technology to provide a transparent and efficient supply chain system.
 
 ## Features and Benefits
 We Supply offers a user-friendly interface that allows businesses to track their supply chain in real-time. With our solution, businesses can track their products from the source to the destination, ensuring transparency and trust in the supply chain process.
@@ -19,5 +19,4 @@ https://iamkunal9.github.io/links
 
 ## Tags
 > #hackathon
-> #itday
 
